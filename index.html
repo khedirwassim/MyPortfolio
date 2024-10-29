@@ -306,7 +306,7 @@
                 </div>
                 <button onclick="ProjectModal.openModal('android')" 
                         class="details-btn px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg transition-all duration-300 flex items-center gap-2">
-                    <span>Plus de détails</span>
+                    <span>Voir plus</span>
                     <i class="fas fa-arrow-right transform group-hover:translate-x-1 transition-transform"></i>
                 </button>
             </div>
@@ -325,7 +325,7 @@
                 </div>
                 <button onclick="ProjectModal.openModal('web')" 
                         class="details-btn px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg transition-all duration-300 flex items-center gap-2">
-                    <span>Plus de détails</span>
+                    <span>Voir plus</span>
                     <i class="fas fa-arrow-right transform group-hover:translate-x-1 transition-transform"></i>
                 </button>
             </div>
@@ -334,9 +334,9 @@
             <div class="project-card bg-gray-800 rounded-xl p-8 hover:transform hover:scale-105 transition duration-300">
                 <div class="flex items-center mb-4">
                     <i class="fas fa-desktop text-purple-500 text-3xl mr-4"></i>
-                    <h3 class="text-2xl font-bold">Numérisation Sonelgaz</h3>
+                    <h3 class="text-2xl font-bold">Numérisation numérisation des données</h3>
                 </div>
-                <p class="text-gray-400 mb-4">Application desktop développée en .NET et C# pour la numérisation des données d'entreprise de Sonelgaz Algérie.</p>
+                <p class="text-gray-400 mb-4">Application desktop développée en .NET et C# pour la numérisation des données d'entreprise de Sonatrach Algérie.</p>
                 <div class="flex flex-wrap gap-2 mb-4">
                     <span class="px-3 py-1 bg-gray-700 rounded-full text-sm">.NET</span>
                     <span class="px-3 py-1 bg-gray-700 rounded-full text-sm">C#</span>
@@ -344,7 +344,7 @@
                 </div>
                 <button onclick="ProjectModal.openModal('desktop')" 
                         class="details-btn px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg transition-all duration-300 flex items-center gap-2">
-                    <span>Plus de détails</span>
+                    <span>Voir plus</span>
                     <i class="fas fa-arrow-right transform group-hover:translate-x-1 transition-transform"></i>
                 </button>
             </div>
@@ -363,7 +363,7 @@
                 </div>
                 <button onclick="ProjectModal.openModal('flutter')" 
                         class="details-btn px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg transition-all duration-300 flex items-center gap-2">
-                    <span>Plus de détails</span>
+                    <span>Voir plus</span>
                     <i class="fas fa-arrow-right transform group-hover:translate-x-1 transition-transform"></i>
                 </button>
             </div>
@@ -379,7 +379,7 @@
                 <i class="fas fa-times text-2xl"></i>
             </button>
             <!-- Carousel et contenu du modal -->
-            <div class="relative overflow-hidden rounded-t-xl">
+            <div class="relative overflow-hidden rounded-t-xl h-[400px]"> <!-- Augmentez ici à h-[500px] -->
                 <div id="carousel" class="flex transition-transform duration-500">
                     <!-- Images insérées dynamiquement -->
                 </div>
@@ -399,6 +399,7 @@
 </div>
 
 
+
 <script>
 // Encapsulated project modal functionality in an object
 const ProjectModal = {
@@ -408,22 +409,22 @@ const ProjectModal = {
         'android': {
             title: 'Gestion d\'Employés',
             description: 'Application Android native développée en Java pour la gestion complète des employés d\'une entreprise.',
-            images: ['android-1.png', 'android-2.webp']
+            images: ['androidi.png']
         },
         'web': {
             title: 'Calories Tracker',
             description: 'Site web de suivi des calories utilisant JavaScript, Bootstrap et PHP pour aider les utilisateurs à suivre leur alimentation.',
-            images: ['calories-1.jpg', 'calories-2.jpg', 'calories-3.jpg']
+            images: ['calorie.png']
         },
         'desktop': {
-            title: 'Numérisation Sonelgaz',
-            description: 'Application desktop développée en .NET et C# pour la numérisation des données d\'entreprise de Sonelgaz Algérie.',
-            images: ['desktop-1.jpg', 'desktop-2.jpg', 'desktop-3.jpg']
+            title: 'Numérisation ',
+            description: 'Application desktop développée en .NET et C# pour la numérisation des données d\'entreprise de Sonatrach Algérie.',
+            images: ['pfe1.png']
         },
         'flutter': {
             title: 'Projets Flutter',
             description: 'Collection de projets mobiles développés avec Flutter, démontrant la versatilité dans le développement d\'applications multiplateformes.',
-            images: ['flutter-1.jpg', 'flutter-2.jpg', 'flutter-3.jpg']
+            images: ['fl.png']
         }
     },
 
@@ -914,7 +915,7 @@ const projectGalleries = {
         ]
     },
     'desktop': {
-        title: 'Numérisation Sonelgaz',
+        title: 'Numérisation numérisation des données',
         description: 'Application desktop développée en .NET et C# pour la numérisation des données d\'entreprise.',
         images: [
             'desktop-1.jpg',
